@@ -10,39 +10,88 @@
     <title>MoHoShakeri</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{% static 'home/plugins/bootstrap5/css/bootstrap.rtl.min.css' %}">
-    <link rel="stylesheet" href="{% static 'home/plugins/bootstrap-icons-1.10.2/bootstrap-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'home/plugins/bootstrap-icons/bootstrap-icons.css' %}">
     <script src="{% static 'home/plugins/bootstrap5/js/bootstrap.bundle.min.js' %}"></script>
     <!-- main -->
     <link rel="stylesheet" href="{% static 'home/style.css' %}">
+    <!-- programming icons -->
+    <link rel="stylesheet" href="{% static 'home/plugins/devicon/devicon.min.css' %}">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">سایت</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavBar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="NavBar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">لینک</a>
-                    </li>
-            </div>
-        </div>
-    </nav>
-
     <div class="container mt-5">
         <div class="row">
-            <div class="col-12">
+            <!-- INFORMATION -->
+            <section class="col-12 cdir">
                 <div class="card">
                     <div class="card-body">
-                        52
-                        <p>5</p>
-                        <p>5</p>
+                        <h1>محمد حسین شاکری</h1>
+                        <h4 class="desc">توسعه دهنده تحت وب</h4>
+                        <div class="information">
+                            <h6 class="en-text cflex ocolor"><i
+                                    class="icon bi bi-envelope-at-fill"></i>mohoshakeri@yahoo.com</h6>
+                            <div class="social-links">
+                                <a href=""><i class="icon bi bi-github"></i></a>
+                                <a href=""><i class="icon bi bi-linkedin"></i></a>
+                            </div>
+                            <div class="btn-row">
+                                <button class="btn"><i class="btn-icon bi bi-file-earmark-pdf-fill"></i>دانلود
+                                    رزومه</button>
+                                <button class="btn"><i class="btn-icon bi bi-chat-quote-fill"></i>تماس با من</button>
+                            </div>
+                            <hr class="card-hr">
+                            <h4>مهارت‌ها</h4>
+                            <br>
+                            <div>
+                                <i class="icon devicon devicon-python-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-django-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-docker-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-git-plain colored"></i>
+                                <i class="icon devicon devicon-github-original-wordmark colored"></i>
+                                <i class="icon devicon devicon-mysql-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-postgresql-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-mongodb-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-html5-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-css3-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-bootstrap-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-javascript-plain colored"></i>
+                                <i class="icon devicon devicon-jquery-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-ubuntu-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-vscode-plain-wordmark colored"></i>
+                                <i class="icon devicon devicon-trello-plain-wordmark colored"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <hr>
+            <!-- JOBS -->
+            <!-- Projects -->
+            <section class="col-12 cdir">
+                <h1 class="title">پروژه‌ها</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-image" src="{% static 'home/img/img.png' %}" alt="">
+                        <h3 class="en-text">Brain Test</h3>
+                        <p class="lable">طول پروژه: 3 ماه</p>
+                        <br>
+                        <br>
+                        <p class="area">سایتی که آزمون روانشناسی IVA2 را برگزار کرده و امکان تعامل میان درمانجو و
+                            درمانگر را در پنل اختصاصی خود میدهد. این سایت با قالبی مبتنی بر یک قالب اوپن سورس نوشته شده
+                            و در بک‌اند خود از فریمورک جنگو تحت زبان پایتون استفاده میکند.</p>
+                        <div class="btn-row">
+                            <button class="btn en-text"><i class="btn-icon bi bi-globe-americas"></i>Website</button>
+                        </div>
+                        <hr class="card-hr">
+                        <h4>ویژگی‌های سایت:</h4>
+                        <h6 class="cflex area"><i class="text-icon bi bi-arrow-return-left"></i>ssss</h6>
+                        <h4>چالش‌ها:</h4>
+                        <h6 class="cflex area"><i class="text-icon bi bi-arrow-return-left"></i>ssss</h6>
+
+                    </div>
+                </div>
+            </section>
+
         </div>
     </div>
 </body>
