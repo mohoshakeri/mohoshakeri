@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Shabnam;
+    src: url(fonts/Shabnam.woff);
+}
+
+:root{
+    --main-color: #FF5722;
+}
+
+body {
+    font-family: Shabnam;
+    background-color: #212428;
+    color: #fff;
+}
+
+.bg-dark {
+    background-color: #212428 !important;
+}
+
+.title {
+    color: var(--main-color);
+}
+
