@@ -3,7 +3,7 @@
 
 - 📫 How to reach me **mohoshakeri@yahoo.com**
 
-- 📄 Know about my experiences [http://mohoshakeri.ir](http://mohoshakeri.ir)
+- 📄 Know about my experiences [mohoshakeri.ir](http://mohoshakeri.ir)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
