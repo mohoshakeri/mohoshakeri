@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Hossein</h1>
 <h3 align="center">A Django and VueJs Developer</h3>
 
-- 👨‍💻 All of my projects are available at [mohoshakeri.ir](mohoshakeri.ir)
-
 - 📫 How to reach me **mohoshakeri@yahoo.com**
+
+- 📄 Know about my experiences [http://mohoshakeri.ir](http://mohoshakeri.ir)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
