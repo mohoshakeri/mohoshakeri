@@ -20,10 +20,15 @@ body {
     font-family: Shabnam;
     background-color: #212428;
     color: #fff;
-    border: solid;
-    border-image: var(--gradient) 1;
-    border-width: 4px;
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        border: solid;
+        border-image: var(--gradient) 1;
+        border-width: 4px;
+    }
 }
 
 .card {
@@ -93,9 +98,9 @@ body {
     vertical-align: unset;
 }
 
-.png-icon:hover{
-        -webkit-filter: drop-shadow(0px 0px 20px #ffffff61) !important;
-            filter: drop-shadow(0px 0px 20px #ffffff61) !important;
+.png-icon:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px #ffffff61) !important;
+    filter: drop-shadow(0px 0px 20px #ffffff61) !important;
 }
 
 .text-icon {
