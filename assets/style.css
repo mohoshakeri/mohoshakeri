@@ -24,7 +24,7 @@ body {
 }
 
 @media screen and (min-width: 700px) {
-    body{
+    body {
         border: solid;
         border-image: var(--gradient) 1;
         border-width: 4px;
@@ -79,8 +79,44 @@ body {
     margin-top: 2rem;
 }
 
-.devicon {
-    font-size: 50px !important;
+@media screen and (min-width: 373px) {
+    .devicon {
+        font-size: 28px !important;
+    }
+
+    .png-icon {
+        width: 28px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .devicon {
+        font-size: 47px !important;
+    }
+
+    .png-icon {
+        width: 47px;
+    }
+}
+
+@media screen and (min-width: 462px) {
+    .devicon {
+        font-size: 40px !important;
+    }
+
+    .png-icon {
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .devicon {
+        font-size: 50px !important;
+    }
+
+    .png-icon {
+        width: 50px;
+    }
 }
 
 .icon {
@@ -94,7 +130,6 @@ body {
 }
 
 .png-icon {
-    width: 50px;
     vertical-align: unset;
 }
 
