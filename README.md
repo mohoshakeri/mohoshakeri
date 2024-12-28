@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Hossein</h1>
-<h3 align="center">Python Backend Developer</h3>
+<h3 align="center">Python/Django Developer</h3>
 
 - 📫 How to reach me **mohoshakeri@yahoo.com**
 
-<!-- - 📄 Know about my experiences [mohoshakeri.ir](http://mohoshakeri.ir) -->
+- 📄 Know about my experiences [iamshakeri.ir](https://iamshakeri.ir)
 
 ![](https://komarev.com/ghpvc/?username=mohoshakeri&color=green)
