@@ -3,6 +3,6 @@
 
 - 📫 How to reach me **mohoshakeri@yahoo.com**
 
-- 📄 Know about my experiences [iamshakeri.ir](https://iamshakeri.ir)
+- 📄 Know about me [iamshakeri.ir](https://iamshakeri.ir)
 
 ![](https://komarev.com/ghpvc/?username=mohoshakeri&color=green)
